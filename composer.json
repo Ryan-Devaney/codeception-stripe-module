@@ -1,5 +1,5 @@
 {
-    "name": "devaney/portrino/codeception-stripe-module-update",
+    "name": "devaney/codeception-stripe-module",
     "description": "Codeception Module for Stripe API.",
     "authors": [
         {
