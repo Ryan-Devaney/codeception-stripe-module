@@ -83,9 +83,9 @@ class Stripe extends Module implements DependsOnModule
         $this->debugSection('Stripe API Version', \Stripe\Stripe::getApiVersion());
 
         \Stripe\Stripe::setAppInfo(
-            'portrino/codeception-stripe-module',
-            Versions::getVersion('portrino/codeception-stripe-module'),
-            'https://github.com/portrino/codeception-stripe-module'
+            'devaney/codeception-stripe-module',
+            Versions::getVersion('devaney/codeception-stripe-module'),
+            'https://github.com/ryan-devaney/codeception-stripe-module'
         );
         $this->debugSection('Stripe App Info', \Stripe\Stripe::getAppInfo());
     }
